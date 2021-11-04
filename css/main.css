@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parent {
+  padding: 10px;
+}
+.parent header {
+  background-color: #f1f1f1;
+  font-size: 15px;
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.parent nav {
+  background-color: #f1f1f1;
+  font-size: 15px;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.parent .left {
+  background-color: #f1f1f1;
+  font-size: 15px;
+  padding: 15px;
+  width: 15%;
+  height: 300px;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.parent .right {
+  background-color: #f1f1f1;
+  font-size: 15px;
+  padding: 15px;
+  width: 15%;
+  height: 300px;
+  float: right;
+  position: relative;
+}
+.parent .right p,
+.parent .left p,
+.parent div p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.parent div {
+  background-color: #f1f1f1;
+  font-size: 15px;
+  padding: 15px;
+  margin: 0 8px;
+  width: calc(70% - 16px);
+  height: 300px;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+}
+.parent footer {
+  background-color: #f1f1f1;
+  font-size: 15px;
+  padding: 20px;
+  width: 100%;
+  margin-top: 8px;
+  text-align: center;
+}
